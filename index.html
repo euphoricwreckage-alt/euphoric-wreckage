@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EUPHORIC WRECKAGE - Dark Euphoric Breakbeat</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --moss-green: #7FFF00;
+            --dark-bg: #0a0a0a;
+            --concrete: #2a2a2a;
+            --light-gray: #cccccc;
+        }
+
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--light-gray);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, #000000 0%, #1a1a1a 100%);
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.15;
+            z-index: 1;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%);
+            z-index: 2;
+        }
+
+        .hero-content {
+            text-align: center;
+            z-index: 10;
+            padding: 20px;
+            position: relative;
+        }
+
+        .logo-image {
+            max-width: 90%;
+            width: 1200px;
+            height: auto;
+            margin-bottom: 2rem;
+            filter: drop-shadow(0 0 20px rgba(127, 255, 0, 0.3));
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            color: var(--moss-green);
+            font-weight: 300;
+            letter-spacing: 0.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: transparent;
+            border: 2px solid var(--moss-green);
+            color: var(--moss-green);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background: var(--moss-green);
+            color: #000;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(127, 255, 0, 0.3);
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--moss-green);
+            font-size: 2rem;
+            animation: bounce 2s infinite;
+            z-index: 10;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-10px); }
+            60% { transform: translateX(-50%) translateY(-5px); }
+        }
+
+        /* Section Styles */
+        section {
+            padding: 100px 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            margin-bottom: 3rem;
+            position: relative;
+            display: inline-block;
+            color: #ffffff;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100px;
+            height: 3px;
+            background: var(--moss-green);
+        }
+
+        /* Featured Track Section */
+        .featured-track {
+            background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%);
+            border: 2px solid var(--moss-green);
+            padding: 40px;
+            margin-bottom: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .featured-track::before {
+            content: '♫';
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            font-size: 4rem;
+            color: var(--moss-green);
+            opacity: 0.1;
+        }
+
+        .featured-label {
+            color: var(--moss-green);
+            font-size: 0.9rem;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .featured-title {
+            font-size: 2.5rem;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .featured-description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Daily Quote Section */
+        .daily-quote {
+            background: var(--concrete);
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .quote-text {
+            font-size: 2rem;
+            font-style: italic;
+            color: var(--moss-green);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .quote-author {
+            font-size: 1.2rem;
+            color: var(--light-gray);
+        }
+
+        /* News Section */
+        .news {
+            background: var(--dark-bg);
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .news-item {
+            background: var(--concrete);
+            border-left: 4px solid var(--moss-green);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .news-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(127, 255, 0, 0.2);
+        }
+
+        .news-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .news-content {
+            padding: 30px;
+        }
+
+        .news-date {
+            color: var(--moss-green);
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        .news-title {
+            font-size: 1.5rem;
+            color: #ffffff;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .news-text {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* About Section */
+        .about {
+            background: var(--concrete);
+        }
+
+        .about-text {
+            font-size: 1.2rem;
+            max-width: 900px;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+        }
+
+        .about-text .highlight {
+            color: var(--moss-green);
+            font-weight: 700;
+        }
+
+        .band-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .member {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-left: 4px solid var(--moss-green);
+            transition: all 0.3s ease;
+        }
+
+        .member:hover {
+            transform: translateX(10px);
+            border-left-width: 8px;
+        }
+
+        .member-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .member-role {
+            color: var(--moss-green);
+            font-size: 1rem;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        .member-description {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .member-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        /* Album Section */
+        .album {
+            background: var(--dark-bg);
+        }
+
+        .album-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+
+        .album-cover {
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            border: 2px solid var(--moss-green);
+        }
+
+        .tracklist {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+
+        .tracklist li {
+            padding: 15px 20px;
+            background: rgba(127, 255, 0, 0.05);
+            margin-bottom: 10px;
+            border-left: 3px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .tracklist li:hover {
+            background: rgba(127, 255, 0, 0.1);
+            border-left-color: var(--moss-green);
+            transform: translateX(5px);
+        }
+
+        .tracklist .lead-single {
+            background: rgba(127, 255, 0, 0.15);
+            border-left-color: var(--moss-green);
+        }
+
+        .track-number {
+            color: var(--moss-green);
+            font-weight: 700;
+            margin-right: 15px;
+        }
+
+        .spotify-embed {
+            margin: 30px 0;
+        }
+
+        .streaming-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .stream-button {
+            padding: 12px 30px;
+            background: transparent;
+            border: 2px solid var(--moss-green);
+            color: var(--moss-green);
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .stream-button:hover {
+            background: var(--moss-green);
+            color: #000;
+            transform: translateY(-2px);
+        }
+
+        /* Gallery Section */
+        .gallery {
+            background: var(--concrete);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            aspect-ratio: 1;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            border-color: var(--moss-green);
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: var(--dark-bg);
+            text-align: center;
+        }
+
+        .contact-text {
+            font-size: 1.5rem;
+            margin-bottom: 50px;
+            line-height: 1.8;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            text-decoration: none;
+            color: var(--light-gray);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .social-link:hover {
+            color: var(--moss-green);
+            transform: translateY(-5px);
+        }
+
+        .social-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .social-label {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        .email-link {
+            display: inline-block;
+            font-size: 1.5rem;
+            color: var(--moss-green);
+            text-decoration: none;
+            padding: 20px 40px;
+            border: 2px solid var(--moss-green);
+            transition: all 0.3s ease;
+        }
+
+        .email-link:hover {
+            background: var(--moss-green);
+            color: #000;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .footer-symbols {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            letter-spacing: 1rem;
+        }
+
+        .footer-text {
+            color: var(--moss-green);
+            font-size: 1.2rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-copyright {
+            color: var(--light-gray);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .album-content {
+                grid-template-columns: 1fr;
+            }
+
+            .news-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .social-links {
+                gap: 30px;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+
+            .featured-title {
+                font-size: 1.8rem;
+            }
+
+            .quote-text {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Loading animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* Update indicator */
+        .last-updated {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(127, 255, 0, 0.1);
+            padding: 10px 20px;
+            border: 1px solid var(--moss-green);
+            border-radius: 5px;
+            font-size: 0.8rem;
+            color: var(--moss-green);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video id="heroVideo" autoplay loop muted playsinline class="hero-video">
+            <source src="scorpion_spotify_canvas.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content fade-in">
+            <img src="EuphoricWreckageLogoBreed.png" alt="EUPHORIC WRECKAGE" class="logo-image">
+            <p class="tagline">DARK EUPHORIC BREAKBEAT</p>
+            <p style="font-size: 1.2rem; margin-top: 20px;">Where destruction meets joy. Where broken things become beautiful.</p>
+            <a href="#news" class="cta-button">Latest Updates</a>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- Daily Quote Section -->
+    <section class="daily-quote">
+        <p class="quote-text" id="quoteText">"Dance in the ruins. Build beauty from wreckage."</p>
+        <p class="quote-author" id="quoteAuthor">— Vesper Sinclair</p>
+    </section>
+
+    <!-- Featured Track Section -->
+    <section style="background: var(--dark-bg); padding: 80px 20px;">
+        <div style="max-width: 1400px; margin: 0 auto;">
+            <div class="featured-track" id="featuredTrack">
+                <p class="featured-label">Today's Featured Track</p>
+                <h3 class="featured-title"><span id="trackNumber">04</span>. <span id="trackTitle">Victorious Failure</span></h3>
+                <p class="featured-description" id="trackDescription">
+                    Today's featured track captures the essence of finding triumph in defeat. Heavy breakbeats meet soaring melodies.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news">
+        <h2 class="section-title">Latest News</h2>
+        <div class="news-grid" id="newsGrid">
+            <!-- News items will be loaded dynamically -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">The Band</h2>
+        <div class="about-text">
+            <p>We are <span class="highlight">Euphoric Wreckage</span> — heavy breakbeats meet melodic euphoria. Industrial textures with emotional depth. Music for dancing in ruins.</p>
+            <p style="margin-top: 20px;">Our sound: <span class="highlight">160-180 BPM</span> of controlled chaos and beautiful contradictions. We carve cathedrals from ashes and find sunflowers in concrete.</p>
+        </div>
+
+        <div class="band-members">
+            <div class="member">
+                <div class="member-icon">🔥</div>
+                <h3 class="member-name">Vesper Sinclair</h3>
+                <p class="member-role">Lead Vocals</p>
+                <p class="member-description">The Voice. Fire incarnate. Commanding, intense, powerful on stage — strength through adversity. Every scar is a map.</p>
+            </div>
+
+            <div class="member">
+                <div class="member-icon">❄️</div>
+                <h3 class="member-name">Justin Sakurai</h3>
+                <p class="member-role">Producer / Synth / Guitar</p>
+                <p class="member-description">The Architect. Ice precision. Reserved methodical genius behind the sound. Cool exterior, emotional depth beneath.</p>
+            </div>
+
+            <div class="member">
+                <div class="member-icon">🌍</div>
+                <h3 class="member-name">Finnian Frost</h3>
+                <p class="member-role">Bass / Samples</p>
+                <p class="member-description">The Heart. Earth warmth. The glue that holds it together. Grounding presence, emotional anchor, human connection.</p>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 50px; font-size: 1.5rem; color: var(--moss-green); font-weight: 700;">Three energies. One sound.</p>
+    </section>
+
+    <!-- Album Section -->
+    <section id="album" class="album">
+        <h2 class="section-title">The Album</h2>
+        <div class="album-content">
+            <div>
+                <img src="EuphoricWreckageFrontStream.png" alt="Euphoric Wreckage Album Cover" class="album-cover">
+            </div>
+            <div>
+                <h3 style="font-size: 2.5rem; margin-bottom: 30px; color: #fff;">EUPHORIC WRECKAGE</h3>
+                <p style="font-size: 1.2rem; margin-bottom: 30px; line-height: 1.8;">
+                    12 tracks of dark euphoric breakbeat. The collision between destruction and joy. Finding beauty in broken things. Dancing in the ruins.
+                </p>
+                <ol class="tracklist">
+                    <li><span class="track-number">01</span> Static Goddess</li>
+                    <li><span class="track-number">02</span> Silver Wreckage</li>
+                    <li><span class="track-number">03</span> Analog Vertigo (The Lullaby)</li>
+                    <li class="lead-single"><span class="track-number">04</span> Victorious Failure</li>
+                    <li><span class="track-number">05</span> No Rhyme or Reason</li>
+                    <li><span class="track-number">06</span> Pretty Damaged</li>
+                    <li><span class="track-number">07</span> Paranoid Bliss</li>
+                    <li><span class="track-number">08</span> Glitch Choir</li>
+                    <li><span class="track-number">09</span> No Geography</li>
+                    <li><span class="track-number">10</span> Gut Feeling</li>
+                    <li><span class="track-number">11</span> After the Wreckage (we dance)</li>
+                    <li><span class="track-number">12</span> Found Sounds</li>
+                </ol>
+                
+                <!-- Spotify Embedded Player -->
+                <div class="spotify-embed">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7aeVluARE8EipLO5z41vc8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
+                <!-- Streaming Platform Buttons -->
+                <div class="streaming-buttons">
+                    <a href="https://open.spotify.com/album/7aeVluARE8EipLO5z41vc8?si=y2ffd3-tSuW0xR4AoDA61A" target="_blank" class="stream-button">Spotify</a>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_n7PW_wz3OBx6K2y3cB4WEUqLBxQUZ5g7E" target="_blank" class="stream-button">YouTube Music</a>
+                    <a href="https://artists.landr.com/057829947535" target="_blank" class="stream-button">More Platforms</a>
+                </div>
+
+                <p style="margin-top: 30px; font-size: 0.9rem; color: var(--moss-green); text-align: center;">
+                    <strong>NOW STREAMING EVERYWHERE</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">Visuals</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="Euphoric_Wreckage18.png" alt="Euphoric Wreckage Band Photo">
+            </div>
+            <div class="gallery-item">
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+                    <source src="queen_wreckage_spotify_canvas.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item">
+                <img src="Gen4_complete_band_standing_on_the_stage_IMG_1___IMG_2_and_IMG_3___singer_in_the_front__Dut_35651001.png" alt="Band Performance">
+            </div>
+            <div class="gallery-item">
+                <img src="Vesper13.png" alt="Vesper Sinclair">
+            </div>
+            <div class="gallery-item">
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover;">
+                    <source src="finnian_spotify_canvas.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="gallery-item">
+                <img src="Justin10.png" alt="Justin Sakurai">
+            </div>
+            <div class="gallery-item">
+                <img src="Gen4_the_model_IMG_2_standing_on_this_stage_behind_this_ribbon_microphone_IMG_1_in_a_this_ex_1015420.png" alt="Vesper Stage Performance">
+            </div>
+            <div class="gallery-item">
+                <img src="FinnianVesper2.png" alt="Finnian and Vesper">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Connect</h2>
+        <div class="contact-content">
+            <p class="contact-text">
+                Dance in the ruins. Build beauty from wreckage. <br>
+                Join us in the underground.
+            </p>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/euphoric.wreckage" target="_blank" class="social-link">
+                    <div class="social-icon">◆</div>
+                    <div class="social-label">Instagram</div>
+                </a>
+                <a href="https://www.youtube.com/@EuphoricWreckage" target="_blank" class="social-link">
+                    <div class="social-icon">▶</div>
+                    <div class="social-label">YouTube</div>
+                </a>
+                <a href="https://open.spotify.com/artist/your-artist-id" target="_blank" class="social-link">
+                    <div class="social-icon">♫</div>
+                    <div class="social-label">Spotify</div>
+                </a>
+            </div>
+
+            <a href="mailto:euphoricwreckage@gmail.com" class="email-link">euphoricwreckage@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-symbols">🦀🌻⚡</div>
+        <p class="footer-text">DANCE IN THE RUINS. BUILD BEAUTY FROM WRECKAGE.</p>
+        <p class="footer-copyright">© 2025 Euphoric Wreckage. All rights reserved.</p>
+    </footer>
+
+    <!-- Last Updated Indicator -->
+    <div class="last-updated" id="lastUpdated">Updated: Loading...</div>
+
+    <script>
+        // Load dynamic content from JSON
+        async function loadContent() {
+            try {
+                const response = await fetch('content.json');
+                const content = await response.json();
+                
+                // Update hero video
+                const heroVideo = document.getElementById('heroVideo');
+                heroVideo.src = content.heroVideo;
+                
+                // Update featured track
+                document.getElementById('trackNumber').textContent = content.featuredTrack.number;
+                document.getElementById('trackTitle').textContent = content.featuredTrack.title;
+                document.getElementById('trackDescription').textContent = content.featuredTrack.description;
+                
+                // Update daily quote
+                document.getElementById('quoteText').textContent = `"${content.dailyQuote.text}"`;
+                document.getElementById('quoteAuthor').textContent = `— ${content.dailyQuote.author}`;
+                
+                // Update news section
+                const newsGrid = document.getElementById('newsGrid');
+                newsGrid.innerHTML = '';
+                content.news.forEach(item => {
+                    const newsItem = document.createElement('div');
+                    newsItem.className = 'news-item fade-in';
+                    newsItem.innerHTML = `
+                        <img src="${item.image}" alt="${item.title}" class="news-image">
+                        <div class="news-content">
+                            <p class="news-date">${item.date}</p>
+                            <h3 class="news-title">${item.title}</h3>
+                            <p class="news-text">${item.content}</p>
+                        </div>
+                    `;
+                    newsGrid.appendChild(newsItem);
+                });
+                
+                // Update last updated indicator
+                document.getElementById('lastUpdated').textContent = `Updated: ${content.lastUpdated}`;
+                
+            } catch (error) {
+                console.error('Error loading content:', error);
+            }
+        }
+
+        // Load content when page loads
+        loadContent();
+
+        // Smooth scroll for CTA button
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Fade in elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+
+</body>
+</html>
