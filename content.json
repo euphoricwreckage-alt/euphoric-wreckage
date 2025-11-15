@@ -2,15 +2,21 @@
   "lastUpdated": "2025-11-15",
   "heroVideo": "scorpion_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "04",
-    "title": "Victorious Failure",
-    "description": "Our lead single. Celebrating the beauty of falling apart and getting back up."
+    "number": "09",
+    "title": "No Geography",
+    "description": "Borderless sound. Music that exists everywhere and nowhere."
   },
   "dailyQuote": {
-    "text": "Dance like the world is ending. Because it is, and it's beautiful.",
-    "author": "Vesper Sinclair"
+    "text": "The foundation holds everything. Be someone's foundation.",
+    "author": "Finnian Frost"
   },
   "news": [
+    {
+      "date": "2025-11-15",
+      "title": "Featured Track: No Geography",
+      "content": "Track 09: 'No Geography' - Borderless sound. Music that exists everywhere and nowhere.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-15",
       "title": "Album Now Streaming Everywhere",
