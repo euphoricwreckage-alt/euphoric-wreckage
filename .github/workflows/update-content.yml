@@ -33,6 +33,9 @@ jobs:
       
       - name: 🎨 Run Smart Update Agent
         run: |
+          cd $GITHUB_WORKSPACE
+          pwd
+          ls -la
           python smart_update_agent.py
       
       - name: 📝 Commit and push changes
