@@ -12,6 +12,9 @@ on:
           - smart
           - force
 
+permissions:
+  contents: write  # Required to push changes back to repository
+
 jobs:
   update-content:
     runs-on: ubuntu-latest
