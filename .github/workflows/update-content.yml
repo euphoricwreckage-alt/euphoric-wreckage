@@ -1,0 +1,48 @@
+name: Update Euphoric Wreckage Content
+
+on:
+  workflow_dispatch:  # This enables the manual "Run workflow" button
+    inputs:
+      update_type:
+        description: 'Update type'
+        required: false
+        default: 'smart'
+        type: choice
+        options:
+          - smart
+          - force
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 🎵 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+      
+      - name: 🎨 Run Smart Update Agent
+        run: |
+          python smart_update_agent.py
+      
+      - name: 📝 Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Euphoric Wreckage Bot"
+          git add content.json update_history.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🎵 Auto-update: $(date +'%Y-%m-%d %H:%M')" && git push)
+      
+      - name: ✅ Update complete
+        run: |
+          echo "🦀🌻⚡ Content updated successfully! 🦀🌻⚡"
+          echo "Visit https://euphoricwreckage.com to see the changes"
