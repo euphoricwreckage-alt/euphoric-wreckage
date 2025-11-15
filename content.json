@@ -1,16 +1,22 @@
 {
   "lastUpdated": "2025-11-15",
-  "heroVideo": "scorpion_spotify_canvas.mp4",
+  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "09",
-    "title": "No Geography",
-    "description": "Borderless sound. Music that exists everywhere and nowhere."
+    "number": "12",
+    "title": "Found Sounds",
+    "description": "The closer. Discovering music in unexpected places. Every ending is a beginning."
   },
   "dailyQuote": {
-    "text": "The foundation holds everything. Be someone's foundation.",
-    "author": "Finnian Frost"
+    "text": "The most beautiful sounds come from broken things learning to sing again.",
+    "author": "Vesper Sinclair"
   },
   "news": [
+    {
+      "date": "2025-11-15",
+      "title": "Featured Track: Found Sounds",
+      "content": "Today we're highlighting 'Found Sounds' - track 12 from our album. The closer. Discovering music in unexpected places. Every ending is a beginning.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-15",
       "title": "Featured Track: No Geography",
