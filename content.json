@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-15",
-  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
+  "lastUpdated": "2025-11-16",
+  "heroVideo": "finnian_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "12",
-    "title": "Found Sounds",
-    "description": "The closer. Discovering music in unexpected places. Every ending is a beginning."
+    "number": "08",
+    "title": "Glitch Choir",
+    "description": "Voices from broken circuits singing in perfect disharmony."
   },
   "dailyQuote": {
-    "text": "The most beautiful sounds come from broken things learning to sing again.",
-    "author": "Vesper Sinclair"
+    "text": "Warmth in music isn't about temperature. It's about presence.",
+    "author": "Finnian Frost"
   },
   "news": [
+    {
+      "date": "2025-11-16",
+      "title": "Featured Track: Glitch Choir",
+      "content": "Diving deep into 'Glitch Choir' today. This track embodies vocal, fragmented, sacred.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-15",
       "title": "Featured Track: Found Sounds",
