@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-16",
-  "heroVideo": "finnian_spotify_canvas.mp4",
+  "lastUpdated": "2025-11-17",
+  "heroVideo": "scorpion_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "08",
-    "title": "Glitch Choir",
-    "description": "Voices from broken circuits singing in perfect disharmony."
+    "number": "03",
+    "title": "Analog Vertigo (The Lullaby)",
+    "description": "Spinning backwards while moving forward. A dizzy embrace of warmth and distortion."
   },
   "dailyQuote": {
-    "text": "Warmth in music isn't about temperature. It's about presence.",
-    "author": "Finnian Frost"
+    "text": "After destruction comes creation. After silence comes the beat.",
+    "author": "Vesper Sinclair"
   },
   "news": [
+    {
+      "date": "2025-11-17",
+      "title": "Featured Track: Analog Vertigo (The Lullaby)",
+      "content": "Diving deep into 'Analog Vertigo (The Lullaby)' today. This track embodies warm, disorienting, nostalgic.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-16",
       "title": "Featured Track: Glitch Choir",
