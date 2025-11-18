@@ -7,20 +7,37 @@ Avoids recent repetitions and maintains engagement
 
 import json
 import random
+import os
 from datetime import datetime
 from pathlib import Path
 
 class SmartRotationAgent:
     def __init__(self, content_file='content.json', history_file='update_history.json'):
-        self.content_file = content_file
-        self.history_file = history_file
+        # Get the directory where the script is located
+        script_dir = Path(__file__).parent if '__file__' in globals() else Path.cwd()
+        
+        self.content_file = script_dir / content_file
+        self.history_file = script_dir / history_file
+        
+        print(f"Looking for content.json at: {self.content_file}")
+        print(f"Looking for update_history.json at: {self.history_file}")
+        
         self.content = self.load_content()
         self.history = self.load_history()
         
     def load_content(self):
         """Load current content.json"""
-        with open(self.content_file, 'r', encoding='utf-8') as f:
-            return json.load(f)
+        try:
+            with open(self.content_file, 'r', encoding='utf-8') as f:
+                content = json.load(f)
+                print(f"✓ Successfully loaded content.json")
+                return content
+        except FileNotFoundError:
+            print(f"✗ ERROR: content.json not found at {self.content_file}")
+            raise
+        except json.JSONDecodeError as e:
+            print(f"✗ ERROR: content.json is not valid JSON: {e}")
+            raise
     
     def save_content(self):
         """Save updated content.json"""
@@ -31,8 +48,11 @@ class SmartRotationAgent:
         """Load update history or create new one"""
         try:
             with open(self.history_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                history = json.load(f)
+                print(f"✓ Successfully loaded update_history.json")
+                return history
         except FileNotFoundError:
+            print(f"! update_history.json not found, creating new one")
             return {
                 'recent_tracks': [],
                 'recent_quotes': [],
@@ -339,7 +359,7 @@ class SmartRotationAgent:
         ]
         
         return {
-            "date": datetime.now().strftime("%B %d, %Y"),
+            "date": datetime.now().strftime("%Y-%m-%d"),
             "title": f"Featured Track: {track['title']}",
             "content": random.choice(templates),
             "image": "EuphoricWreckageFrontStream.png"
@@ -347,7 +367,7 @@ class SmartRotationAgent:
     
     def update_content(self):
         """Main update function - performs smart rotation"""
-        print("🎵 Euphoric Wreckage Smart Update Agent")
+        print("\n🎵 Euphoric Wreckage Smart Update Agent")
         print("=" * 50)
         
         # Select new content
@@ -379,7 +399,7 @@ class SmartRotationAgent:
         self.content['news'] = news_posts
         
         # Update timestamp
-        self.content['lastUpdated'] = datetime.now().strftime("%B %d, %Y at %I:%M %p")
+        self.content['lastUpdated'] = datetime.now().strftime("%Y-%m-%d")
         
         # Update history
         self.history['last_update'] = datetime.now().isoformat()

@@ -1,44 +1,51 @@
 {
-  "lastUpdated": "2025-11-07",
-  "heroVideo": "scorpion_spotify_canvas.mp4",
+  "lastUpdated": "2025-11-18",
+  "heroVideo": "e1b5cf17d6fe2efc8988550c11c17024.mp4",
   "featuredTrack": {
-    "number": "05",
-    "title": "Pretty Damaged",
-    "description": "Today's featured track celibrates scars and what they represent."
+    "number": "11",
+    "title": "After the Wreckage (we dance)",
+    "description": "The title track spirit. Finding joy in the aftermath. Movement through destruction."
   },
   "dailyQuote": {
-    "text": "Don't fix me, don't heal me",
-    "author": "Vesper Sinclair"
+    "text": "The best producers know when to step back and let the song breathe.",
+    "author": "Justin Sakurai"
   },
   "news": [
     {
-      "date": "2025-11-07",
-      "title": "Album Now Streaming Everywhere",
-      "content": "Our debut album 'Euphoric Wreckage' is now available on all major streaming platforms. 12 tracks of dark euphoric breakbeat ready for your ears.",
+      "date": "2025-11-18",
+      "title": "Featured Track: After the Wreckage (we dance)",
+      "content": "'After the Wreckage (we dance)' is taking center stage. The title track spirit. Finding joy in the aftermath. Movement through destruction.",
       "image": "EuphoricWreckageFrontStream.png"
     },
     {
-      "date": "2025-11-05",
-      "title": "New Visuals Released",
-      "content": "Check out our latest Spotify Canvas videos featuring each band member. Immersive visuals to match the sonic intensity.",
-      "image": "Euphoric_Wreckage18.png"
+      "date": "2025-11-17",
+      "title": "Featured Track: Analog Vertigo (The Lullaby)",
+      "content": "Diving deep into 'Analog Vertigo (The Lullaby)' today. This track embodies warm, disorienting, nostalgic.",
+      "image": "EuphoricWreckageFrontStream.png"
     },
     {
-      "date": "2025-11-01",
-      "title": "Euphoric Wreckage Goes Live",
-      "content": "Welcome to our digital home. Where destruction meets joy. Where broken things become beautiful.",
-      "image": "EuphoricWreckageLogoBreed.png"
+      "date": "2025-11-16",
+      "title": "Featured Track: Glitch Choir",
+      "content": "Diving deep into 'Glitch Choir' today. This track embodies vocal, fragmented, sacred.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
+    {
+      "date": "2025-11-15",
+      "title": "Featured Track: Found Sounds",
+      "content": "Today we're highlighting 'Found Sounds' - track 12 from our album. The closer. Discovering music in unexpected places. Every ending is a beginning.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
+    {
+      "date": "2025-11-15",
+      "title": "Featured Track: No Geography",
+      "content": "Track 09: 'No Geography' - Borderless sound. Music that exists everywhere and nowhere.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
+    {
+      "date": "2025-11-15",
+      "title": "Album Now Streaming Everywhere",
+      "content": "Our debut album 'Euphoric Wreckage' is now available on all major streaming platforms. 12 tracks of dark euphoric breakbeat ready for your ears.",
+      "image": "EuphoricWreckageFrontStream.png"
     }
-  ],
-  "gallery": {
-    "rotatingImages": [
-      "Euphoric_Wreckage18.png",
-      "Vesper13.png",
-      "Justin10.png",
-      "FinnianVesper2.png",
-      "Gen4_complete_band_standing_on_the_stage_IMG_1___IMG_2_and_IMG_3___singer_in_the_front__Dut_35651001.png",
-      "Gen4_the_model_IMG_2_standing_on_this_stage_behind_this_ribbon_microphone_IMG_1_in_a_this_ex_1015420.png",
-      "Gen4_this_model__exactly_this_face__IMG_3_wearing_these_pants_IMG_2_and_this_hoodie_IMG_1___18593376.png"
-    ]
-  }
+  ]
 }
