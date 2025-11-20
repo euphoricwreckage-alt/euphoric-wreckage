@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-19",
-  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
+  "lastUpdated": "2025-11-20",
+  "heroVideo": "scorpion_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "10",
-    "title": "Gut Feeling",
-    "description": "Trust the instinct. When your body knows before your mind does."
+    "number": "09",
+    "title": "No Geography",
+    "description": "Borderless sound. Music that exists everywhere and nowhere."
   },
   "dailyQuote": {
-    "text": "Control the chaos, then let the chaos control you.",
-    "author": "Justin Sakurai"
+    "text": "We don't make music for the algorithm. We make it for the people who feel too much.",
+    "author": "Vesper Sinclair"
   },
   "news": [
+    {
+      "date": "2025-11-20",
+      "title": "Featured Track: No Geography",
+      "content": "Today we're highlighting 'No Geography' - track 09 from our album. Borderless sound. Music that exists everywhere and nowhere.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-19",
       "title": "Featured Track: Gut Feeling",
