@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-20",
-  "heroVideo": "scorpion_spotify_canvas.mp4",
+  "lastUpdated": "2025-11-21",
+  "heroVideo": "e1b5cf17d6fe2efc8988550c11c17024.mp4",
   "featuredTrack": {
-    "number": "09",
-    "title": "No Geography",
-    "description": "Borderless sound. Music that exists everywhere and nowhere."
+    "number": "04",
+    "title": "Victorious Failure",
+    "description": "Our lead single. Celebrating the beauty of falling apart and getting back up."
   },
   "dailyQuote": {
-    "text": "We don't make music for the algorithm. We make it for the people who feel too much.",
-    "author": "Vesper Sinclair"
+    "text": "Precision without soul is just mathematics. We need both.",
+    "author": "Justin Sakurai"
   },
   "news": [
+    {
+      "date": "2025-11-21",
+      "title": "Featured Track: Victorious Failure",
+      "content": "Exploring the sonic landscape of 'Victorious Failure' today. Triumphant, Dark, Resilient energy throughout.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-20",
       "title": "Featured Track: No Geography",
@@ -51,12 +57,6 @@
       "date": "2025-11-15",
       "title": "Featured Track: No Geography",
       "content": "Track 09: 'No Geography' - Borderless sound. Music that exists everywhere and nowhere.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-15",
-      "title": "Album Now Streaming Everywhere",
-      "content": "Our debut album 'Euphoric Wreckage' is now available on all major streaming platforms. 12 tracks of dark euphoric breakbeat ready for your ears.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]

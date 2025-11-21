@@ -1,11 +1,11 @@
 {
   "recent_tracks": [
-    "12",
     "08",
     "03",
     "11",
     "10",
-    "09"
+    "09",
+    "04"
   ],
   "recent_quotes": [
     "The foundation holds everything. Be someone's foundation.",
@@ -14,13 +14,14 @@
     "After destruction comes creation. After silence comes the beat.",
     "The best producers know when to step back and let the song breathe.",
     "Control the chaos, then let the chaos control you.",
-    "We don't make music for the algorithm. We make it for the people who feel too much."
+    "We don't make music for the algorithm. We make it for the people who feel too much.",
+    "Precision without soul is just mathematics. We need both."
   ],
   "recent_videos": [
-    "e1b5cf17d6fe2efc8988550c11c17024.mp4",
     "queen_wreckage_spotify_canvas.mp4",
-    "scorpion_spotify_canvas.mp4"
+    "scorpion_spotify_canvas.mp4",
+    "e1b5cf17d6fe2efc8988550c11c17024.mp4"
   ],
-  "last_update": "2025-11-20T19:11:43.369852",
-  "total_updates": 7
+  "last_update": "2025-11-21T15:55:34.444666",
+  "total_updates": 8
 }
