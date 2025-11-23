@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-21",
-  "heroVideo": "e1b5cf17d6fe2efc8988550c11c17024.mp4",
+  "lastUpdated": "2025-11-23",
+  "heroVideo": "finnian_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "04",
-    "title": "Victorious Failure",
-    "description": "Our lead single. Celebrating the beauty of falling apart and getting back up."
+    "number": "06",
+    "title": "Pretty Damaged",
+    "description": "Scars are just stories written on skin. Damage can be beautiful."
   },
   "dailyQuote": {
-    "text": "Precision without soul is just mathematics. We need both.",
-    "author": "Justin Sakurai"
+    "text": "We sample the world because the world is already music.",
+    "author": "Finnian Frost"
   },
   "news": [
+    {
+      "date": "2025-11-23",
+      "title": "Featured Track: Pretty Damaged",
+      "content": "Today we're highlighting 'Pretty Damaged' - track 06 from our album. Scars are just stories written on skin. Damage can be beautiful.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-21",
       "title": "Featured Track: Victorious Failure",
@@ -51,12 +57,6 @@
       "date": "2025-11-15",
       "title": "Featured Track: Found Sounds",
       "content": "Today we're highlighting 'Found Sounds' - track 12 from our album. The closer. Discovering music in unexpected places. Every ending is a beginning.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-15",
-      "title": "Featured Track: No Geography",
-      "content": "Track 09: 'No Geography' - Borderless sound. Music that exists everywhere and nowhere.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]

@@ -1,11 +1,11 @@
 {
   "recent_tracks": [
-    "08",
     "03",
     "11",
     "10",
     "09",
-    "04"
+    "04",
+    "06"
   ],
   "recent_quotes": [
     "The foundation holds everything. Be someone's foundation.",
@@ -15,13 +15,14 @@
     "The best producers know when to step back and let the song breathe.",
     "Control the chaos, then let the chaos control you.",
     "We don't make music for the algorithm. We make it for the people who feel too much.",
-    "Precision without soul is just mathematics. We need both."
+    "Precision without soul is just mathematics. We need both.",
+    "We sample the world because the world is already music."
   ],
   "recent_videos": [
-    "queen_wreckage_spotify_canvas.mp4",
     "scorpion_spotify_canvas.mp4",
-    "e1b5cf17d6fe2efc8988550c11c17024.mp4"
+    "e1b5cf17d6fe2efc8988550c11c17024.mp4",
+    "finnian_spotify_canvas.mp4"
   ],
-  "last_update": "2025-11-21T15:55:34.444666",
-  "total_updates": 8
+  "last_update": "2025-11-23T08:34:02.401584",
+  "total_updates": 9
 }
