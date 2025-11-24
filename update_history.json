@@ -1,11 +1,11 @@
 {
   "recent_tracks": [
-    "03",
     "11",
     "10",
     "09",
     "04",
-    "06"
+    "06",
+    "03"
   ],
   "recent_quotes": [
     "The foundation holds everything. Be someone's foundation.",
@@ -16,13 +16,14 @@
     "Control the chaos, then let the chaos control you.",
     "We don't make music for the algorithm. We make it for the people who feel too much.",
     "Precision without soul is just mathematics. We need both.",
-    "We sample the world because the world is already music."
+    "We sample the world because the world is already music.",
+    "Every track is a conversation between order and entropy."
   ],
   "recent_videos": [
-    "scorpion_spotify_canvas.mp4",
     "e1b5cf17d6fe2efc8988550c11c17024.mp4",
-    "finnian_spotify_canvas.mp4"
+    "finnian_spotify_canvas.mp4",
+    "queen_wreckage_spotify_canvas.mp4"
   ],
-  "last_update": "2025-11-23T08:34:02.401584",
-  "total_updates": 9
+  "last_update": "2025-11-24T13:56:05.052522",
+  "total_updates": 10
 }
