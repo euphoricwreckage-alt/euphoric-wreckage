@@ -1,14 +1,13 @@
 {
   "recent_tracks": [
-    "11",
     "10",
     "09",
     "04",
     "06",
-    "03"
+    "03",
+    "02"
   ],
   "recent_quotes": [
-    "The foundation holds everything. Be someone's foundation.",
     "The most beautiful sounds come from broken things learning to sing again.",
     "Warmth in music isn't about temperature. It's about presence.",
     "After destruction comes creation. After silence comes the beat.",
@@ -17,13 +16,14 @@
     "We don't make music for the algorithm. We make it for the people who feel too much.",
     "Precision without soul is just mathematics. We need both.",
     "We sample the world because the world is already music.",
-    "Every track is a conversation between order and entropy."
+    "Every track is a conversation between order and entropy.",
+    "After destruction comes creation. After silence comes the beat."
   ],
   "recent_videos": [
-    "e1b5cf17d6fe2efc8988550c11c17024.mp4",
     "finnian_spotify_canvas.mp4",
-    "queen_wreckage_spotify_canvas.mp4"
+    "queen_wreckage_spotify_canvas.mp4",
+    "scorpion_spotify_canvas.mp4"
   ],
-  "last_update": "2025-11-24T13:56:05.052522",
-  "total_updates": 10
+  "last_update": "2025-11-26T16:42:37.462872",
+  "total_updates": 11
 }

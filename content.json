@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-24",
-  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
+  "lastUpdated": "2025-11-26",
+  "heroVideo": "scorpion_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "03",
-    "title": "Analog Vertigo (The Lullaby)",
-    "description": "Spinning backwards while moving forward. A dizzy embrace of warmth and distortion."
+    "number": "02",
+    "title": "Silver Wreckage",
+    "description": "Chrome and chaos. Beauty forged from destruction, shining in the ruins."
   },
   "dailyQuote": {
-    "text": "Every track is a conversation between order and entropy.",
-    "author": "Justin Sakurai"
+    "text": "After destruction comes creation. After silence comes the beat.",
+    "author": "Vesper Sinclair"
   },
   "news": [
+    {
+      "date": "2025-11-26",
+      "title": "Featured Track: Silver Wreckage",
+      "content": "Diving deep into 'Silver Wreckage' today. This track embodies metallic, aggressive, beautiful.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-24",
       "title": "Featured Track: Analog Vertigo (The Lullaby)",
@@ -51,12 +57,6 @@
       "date": "2025-11-17",
       "title": "Featured Track: Analog Vertigo (The Lullaby)",
       "content": "Diving deep into 'Analog Vertigo (The Lullaby)' today. This track embodies warm, disorienting, nostalgic.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-16",
-      "title": "Featured Track: Glitch Choir",
-      "content": "Diving deep into 'Glitch Choir' today. This track embodies vocal, fragmented, sacred.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]
