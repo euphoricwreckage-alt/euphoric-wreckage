@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-26",
-  "heroVideo": "scorpion_spotify_canvas.mp4",
+  "lastUpdated": "2025-11-28",
+  "heroVideo": "finnian_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "02",
-    "title": "Silver Wreckage",
-    "description": "Chrome and chaos. Beauty forged from destruction, shining in the ruins."
+    "number": "08",
+    "title": "Glitch Choir",
+    "description": "Voices from broken circuits singing in perfect disharmony."
   },
   "dailyQuote": {
-    "text": "After destruction comes creation. After silence comes the beat.",
-    "author": "Vesper Sinclair"
+    "text": "Technical mastery means nothing if you have nothing to say.",
+    "author": "Justin Sakurai"
   },
   "news": [
+    {
+      "date": "2025-11-28",
+      "title": "Featured Track: Glitch Choir",
+      "content": "Track 08: 'Glitch Choir' - Voices from broken circuits singing in perfect disharmony.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-26",
       "title": "Featured Track: Silver Wreckage",
@@ -51,12 +57,6 @@
       "date": "2025-11-18",
       "title": "Featured Track: After the Wreckage (we dance)",
       "content": "'After the Wreckage (we dance)' is taking center stage. The title track spirit. Finding joy in the aftermath. Movement through destruction.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-17",
-      "title": "Featured Track: Analog Vertigo (The Lullaby)",
-      "content": "Diving deep into 'Analog Vertigo (The Lullaby)' today. This track embodies warm, disorienting, nostalgic.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]
