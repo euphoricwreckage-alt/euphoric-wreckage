@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-11-28",
-  "heroVideo": "finnian_spotify_canvas.mp4",
+  "lastUpdated": "2025-12-01",
+  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "08",
-    "title": "Glitch Choir",
-    "description": "Voices from broken circuits singing in perfect disharmony."
+    "number": "01",
+    "title": "Static Goddess",
+    "description": "Where digital worship meets analog decay. The divine in the machine noise."
   },
   "dailyQuote": {
-    "text": "Technical mastery means nothing if you have nothing to say.",
-    "author": "Justin Sakurai"
+    "text": "Every sound carries the memory of where it came from.",
+    "author": "Finnian Frost"
   },
   "news": [
+    {
+      "date": "2025-12-01",
+      "title": "Featured Track: Static Goddess",
+      "content": "Exploring the sonic landscape of 'Static Goddess' today. Ethereal, Glitchy, Worship energy throughout.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-11-28",
       "title": "Featured Track: Glitch Choir",
@@ -51,12 +57,6 @@
       "date": "2025-11-19",
       "title": "Featured Track: Gut Feeling",
       "content": "Today we're highlighting 'Gut Feeling' - track 10 from our album. Trust the instinct. When your body knows before your mind does.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-18",
-      "title": "Featured Track: After the Wreckage (we dance)",
-      "content": "'After the Wreckage (we dance)' is taking center stage. The title track spirit. Finding joy in the aftermath. Movement through destruction.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]
