@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-12-01",
-  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
+  "lastUpdated": "2025-12-05",
+  "heroVideo": "scorpion_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "01",
-    "title": "Static Goddess",
-    "description": "Where digital worship meets analog decay. The divine in the machine noise."
+    "number": "11",
+    "title": "After the Wreckage (we dance)",
+    "description": "The title track spirit. Finding joy in the aftermath. Movement through destruction."
   },
   "dailyQuote": {
-    "text": "Every sound carries the memory of where it came from.",
-    "author": "Finnian Frost"
+    "text": "The coldest sounds can carry the warmest emotions.",
+    "author": "Justin Sakurai"
   },
   "news": [
+    {
+      "date": "2025-12-05",
+      "title": "Featured Track: After the Wreckage (we dance)",
+      "content": "Track 11: 'After the Wreckage (we dance)' - The title track spirit. Finding joy in the aftermath. Movement through destruction.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-12-01",
       "title": "Featured Track: Static Goddess",
@@ -51,12 +57,6 @@
       "date": "2025-11-20",
       "title": "Featured Track: No Geography",
       "content": "Today we're highlighting 'No Geography' - track 09 from our album. Borderless sound. Music that exists everywhere and nowhere.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-19",
-      "title": "Featured Track: Gut Feeling",
-      "content": "Today we're highlighting 'Gut Feeling' - track 10 from our album. Trust the instinct. When your body knows before your mind does.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]
