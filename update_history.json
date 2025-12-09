@@ -1,14 +1,13 @@
 {
   "recent_tracks": [
-    "06",
     "03",
     "02",
     "08",
     "01",
-    "11"
+    "11",
+    "06"
   ],
   "recent_quotes": [
-    "The best producers know when to step back and let the song breathe.",
     "Control the chaos, then let the chaos control you.",
     "We don't make music for the algorithm. We make it for the people who feel too much.",
     "Precision without soul is just mathematics. We need both.",
@@ -17,13 +16,14 @@
     "After destruction comes creation. After silence comes the beat.",
     "Technical mastery means nothing if you have nothing to say.",
     "Every sound carries the memory of where it came from.",
-    "The coldest sounds can carry the warmest emotions."
+    "The coldest sounds can carry the warmest emotions.",
+    "Every glitch is a decision waiting to be made."
   ],
   "recent_videos": [
-    "finnian_spotify_canvas.mp4",
     "queen_wreckage_spotify_canvas.mp4",
-    "scorpion_spotify_canvas.mp4"
+    "scorpion_spotify_canvas.mp4",
+    "e1b5cf17d6fe2efc8988550c11c17024.mp4"
   ],
-  "last_update": "2025-12-05T21:13:44.275508",
-  "total_updates": 14
+  "last_update": "2025-12-09T19:58:12.073125",
+  "total_updates": 15
 }
