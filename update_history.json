@@ -1,14 +1,13 @@
 {
   "recent_tracks": [
-    "03",
     "02",
     "08",
     "01",
     "11",
-    "06"
+    "06",
+    "05"
   ],
   "recent_quotes": [
-    "Control the chaos, then let the chaos control you.",
     "We don't make music for the algorithm. We make it for the people who feel too much.",
     "Precision without soul is just mathematics. We need both.",
     "We sample the world because the world is already music.",
@@ -17,13 +16,14 @@
     "Technical mastery means nothing if you have nothing to say.",
     "Every sound carries the memory of where it came from.",
     "The coldest sounds can carry the warmest emotions.",
-    "Every glitch is a decision waiting to be made."
+    "Every glitch is a decision waiting to be made.",
+    "The foundation holds everything. Be someone's foundation."
   ],
   "recent_videos": [
-    "queen_wreckage_spotify_canvas.mp4",
     "scorpion_spotify_canvas.mp4",
-    "e1b5cf17d6fe2efc8988550c11c17024.mp4"
+    "e1b5cf17d6fe2efc8988550c11c17024.mp4",
+    "queen_wreckage_spotify_canvas.mp4"
   ],
-  "last_update": "2025-12-09T19:58:12.073125",
-  "total_updates": 15
+  "last_update": "2025-12-17T16:46:44.322203",
+  "total_updates": 16
 }

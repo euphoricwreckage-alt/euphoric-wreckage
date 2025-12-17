@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-12-09",
-  "heroVideo": "e1b5cf17d6fe2efc8988550c11c17024.mp4",
+  "lastUpdated": "2025-12-17",
+  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "06",
-    "title": "Pretty Damaged",
-    "description": "Scars are just stories written on skin. Damage can be beautiful."
+    "number": "05",
+    "title": "No Rhyme or Reason",
+    "description": "Pure chaos energy. When the pattern breaks and something better emerges."
   },
   "dailyQuote": {
-    "text": "Every glitch is a decision waiting to be made.",
-    "author": "Justin Sakurai"
+    "text": "The foundation holds everything. Be someone's foundation.",
+    "author": "Finnian Frost"
   },
   "news": [
+    {
+      "date": "2025-12-17",
+      "title": "Featured Track: No Rhyme or Reason",
+      "content": "Exploring the sonic landscape of 'No Rhyme or Reason' today. Chaotic, Liberating, Wild energy throughout.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-12-09",
       "title": "Featured Track: Pretty Damaged",
@@ -51,12 +57,6 @@
       "date": "2025-11-23",
       "title": "Featured Track: Pretty Damaged",
       "content": "Today we're highlighting 'Pretty Damaged' - track 06 from our album. Scars are just stories written on skin. Damage can be beautiful.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-21",
-      "title": "Featured Track: Victorious Failure",
-      "content": "Exploring the sonic landscape of 'Victorious Failure' today. Triumphant, Dark, Resilient energy throughout.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]
