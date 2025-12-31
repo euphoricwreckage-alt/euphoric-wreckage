@@ -1,14 +1,13 @@
 {
   "recent_tracks": [
-    "02",
     "08",
     "01",
     "11",
     "06",
-    "05"
+    "05",
+    "03"
   ],
   "recent_quotes": [
-    "We don't make music for the algorithm. We make it for the people who feel too much.",
     "Precision without soul is just mathematics. We need both.",
     "We sample the world because the world is already music.",
     "Every track is a conversation between order and entropy.",
@@ -17,13 +16,14 @@
     "Every sound carries the memory of where it came from.",
     "The coldest sounds can carry the warmest emotions.",
     "Every glitch is a decision waiting to be made.",
-    "The foundation holds everything. Be someone's foundation."
+    "The foundation holds everything. Be someone's foundation.",
+    "After destruction comes creation. After silence comes the beat."
   ],
   "recent_videos": [
-    "scorpion_spotify_canvas.mp4",
     "e1b5cf17d6fe2efc8988550c11c17024.mp4",
-    "queen_wreckage_spotify_canvas.mp4"
+    "queen_wreckage_spotify_canvas.mp4",
+    "finnian_spotify_canvas.mp4"
   ],
-  "last_update": "2025-12-17T16:46:44.322203",
-  "total_updates": 16
+  "last_update": "2025-12-31T10:38:34.761561",
+  "total_updates": 17
 }

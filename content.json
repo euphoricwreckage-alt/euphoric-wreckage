@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-12-17",
-  "heroVideo": "queen_wreckage_spotify_canvas.mp4",
+  "lastUpdated": "2025-12-31",
+  "heroVideo": "finnian_spotify_canvas.mp4",
   "featuredTrack": {
-    "number": "05",
-    "title": "No Rhyme or Reason",
-    "description": "Pure chaos energy. When the pattern breaks and something better emerges."
+    "number": "03",
+    "title": "Analog Vertigo (The Lullaby)",
+    "description": "Spinning backwards while moving forward. A dizzy embrace of warmth and distortion."
   },
   "dailyQuote": {
-    "text": "The foundation holds everything. Be someone's foundation.",
-    "author": "Finnian Frost"
+    "text": "After destruction comes creation. After silence comes the beat.",
+    "author": "Vesper Sinclair"
   },
   "news": [
+    {
+      "date": "2025-12-31",
+      "title": "Featured Track: Analog Vertigo (The Lullaby)",
+      "content": "'Analog Vertigo (The Lullaby)' is taking center stage. Spinning backwards while moving forward. A dizzy embrace of warmth and distortion.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-12-17",
       "title": "Featured Track: No Rhyme or Reason",
@@ -51,12 +57,6 @@
       "date": "2025-11-24",
       "title": "Featured Track: Analog Vertigo (The Lullaby)",
       "content": "'Analog Vertigo (The Lullaby)' is taking center stage. Spinning backwards while moving forward. A dizzy embrace of warmth and distortion.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-23",
-      "title": "Featured Track: Pretty Damaged",
-      "content": "Today we're highlighting 'Pretty Damaged' - track 06 from our album. Scars are just stories written on skin. Damage can be beautiful.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]
