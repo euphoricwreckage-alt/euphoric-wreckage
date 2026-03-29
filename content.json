@@ -1,16 +1,22 @@
 {
-  "lastUpdated": "2025-12-31",
-  "heroVideo": "finnian_spotify_canvas.mp4",
+  "lastUpdated": "2026-03-29",
+  "heroVideo": "e1b5cf17d6fe2efc8988550c11c17024.mp4",
   "featuredTrack": {
-    "number": "03",
-    "title": "Analog Vertigo (The Lullaby)",
-    "description": "Spinning backwards while moving forward. A dizzy embrace of warmth and distortion."
+    "number": "12",
+    "title": "Found Sounds",
+    "description": "The closer. Discovering music in unexpected places. Every ending is a beginning."
   },
   "dailyQuote": {
-    "text": "After destruction comes creation. After silence comes the beat.",
+    "text": "The wreckage isn't the end. It's where we begin.",
     "author": "Vesper Sinclair"
   },
   "news": [
+    {
+      "date": "2026-03-29",
+      "title": "Featured Track: Found Sounds",
+      "content": "Diving deep into 'Found Sounds' today. This track embodies exploratory, found, conclusive.",
+      "image": "EuphoricWreckageFrontStream.png"
+    },
     {
       "date": "2025-12-31",
       "title": "Featured Track: Analog Vertigo (The Lullaby)",
@@ -51,12 +57,6 @@
       "date": "2025-11-26",
       "title": "Featured Track: Silver Wreckage",
       "content": "Diving deep into 'Silver Wreckage' today. This track embodies metallic, aggressive, beautiful.",
-      "image": "EuphoricWreckageFrontStream.png"
-    },
-    {
-      "date": "2025-11-24",
-      "title": "Featured Track: Analog Vertigo (The Lullaby)",
-      "content": "'Analog Vertigo (The Lullaby)' is taking center stage. Spinning backwards while moving forward. A dizzy embrace of warmth and distortion.",
       "image": "EuphoricWreckageFrontStream.png"
     }
   ]
